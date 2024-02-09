@@ -1,8 +1,6 @@
 Hádej slovo
 ============
 
-Jednoduchá hra založená na wordle.com 
-
 - Ve hře je cílem uhodnout české slovo na pět písmen.
 - Slova mohou mít diakritiku a neobsahují velká písmena. 
 - Hra se automaticky pustí a vybere náhodné slovo.
