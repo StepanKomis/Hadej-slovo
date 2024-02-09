@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --primary-background-color: #283044;
+    --primary-text-color: #ffffff;
+    --navbar-height: 6.5vh
+}
+
+body{
+    background: var(--primary-background-color);
+    color: var(--primary-text-color);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-inline: 1%;
+    font-size: 150%;
+    line-height: 5vh;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: var(--navbar-height);
+    line-height: var(--navbar-height);
+    top: -1vh;
+    background: var(--secondary-background-color);
+}
+h1{
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 0;
+}
+#vysledek {
+    color: var(--primary-text-color);
+    transition: .5s;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#game{
+    margin-top: 8vh;
+    margin-left: 35%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+}
+
+.row > div{
+    float: left;
+    height: 10vh;
+    width: 10vh;
+    border: solid 3px white;
+    margin: 1%;
+}
+.pismeno{
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+#popis{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    padding-left: 2%;
+    bottom: 0;
+}
+footer > *{
+    float: left;
+}
